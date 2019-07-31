@@ -1,0 +1,127 @@
+body { background-color: rgb(249,249,249); padding-top: 20px; }
+.logon-content {
+	width: 854px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.logon-content .logo { text-align: center; }
+.logon-content h1 {
+	margin: 40px 0;
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+}
+.logon-content ul {
+	margin: 0 auto;
+	width: 332px;
+}
+.logon-content>ul>li {
+	font-size: 14px;
+}
+.logon-content>ul>li>h2 { 
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+}
+.logon-content>ul>li>div {
+	margin: 8px 0;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	border: 1px solid rgb(232,232,232);
+}
+.logon-content>ul>li.country>div {
+	border: none;
+}
+.logon-content>ul>li.country>p {
+	color: rgb(102,102,102);
+
+}
+.logon-content>ul>li.country>div>p {
+	padding: 0 10px;
+	border: 1px solid rgb(232,232,232);
+}
+.logon-content>ul>li.country>div>p:nth-child(2) {
+	overflow: hidden;
+}
+.logon-content>ul>li.country>div>p:nth-child(1) {
+	float: right;
+	margin-left: -1px;
+}
+.logon-content>ul>li.phone>div>input {
+	height: 40px;
+}
+.logon-content>ul>li.phone i { 
+	color: rgb(157,157,157);
+}
+.logon-content>ul>li>div>p>i {
+	color: rgb(212,212,212);
+}
+.logon-content>ul>li.phone {
+	margin: 20px 0 30px 0;
+}
+.logon-content>ul>li.phone input {
+	float: right;
+	margin-top: -1px;
+	margin-right: -1px;
+	overflow: hidden;
+	outline: none;
+	text-indent: 1em;
+	width: 256px;
+	border: 1px solid rgb(232,232,232);
+}
+input::-webkit-input-placeholder { 
+	color: rgb(157,157,157);
+} 
+.logon-content>ul>li.phone p {
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.logon-content li.immediately {
+	height: 40px;
+	line-height: 40px; 
+	text-align: center;
+	background-color: #FF6700;
+	color: #fff;
+}
+.logon-content li.immediately:hover {
+	background-color: #ff936a;
+}
+.logon-content .agree {
+	padding-bottom: 40px;
+	margin-top: 70px;
+	text-align: center;
+	font-size: 14px;
+}
+.logon-content .agree>span:nth-child(1) {
+	
+}
+.logon-content .agree>span:nth-child(2) { 
+	color: rgb(157,157,157);
+}
+.logon-content .agree>span>a { 
+	font-weight: bold;
+	margin-left: 4px;
+	color: #000;
+}
+/* 页脚 */
+.footer { margin-top: 30px; }
+.footer ul { color: rgb(133,133,133); }
+.footer li {
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+.footer a { padding: 0 10px; color: rgb(133,133,133); }
+.footer a:hover { color: rgb(51,51,51); }
+.footer span { 
+	vertical-align: middle;
+	display: inline-block;
+	width: 1px;
+	height: 14px;
+	background-color: rgb(149,149,149);
+	cursor: text;
+}
+.footer .active { color: rgb(51,51,51); }
+.footer ul>li:nth-child(2)>a { padding: 0; }
+.footer ul>li:nth-child(2)>a:hover { color: rgb(133,133,133); }

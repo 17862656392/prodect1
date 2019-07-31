@@ -1,0 +1,352 @@
+html { min-width: 1226px; height: 100%; }
+body { position: relative; min-height: 100%; }
+.w { width: 1226px; margin: 0 auto; }
+/* header */
+.header { background-color: #333; }
+.header ul.left { float: left; }
+.header ul.right { float: right; }
+.header ul { font-size: 0; }
+.header li { display: inline-block; vertical-align: middle; }
+.header li.hide { opacity: 0; }
+.header li.download>a { text-align: center; position: relative; }
+.header li.download>a>* { display: none; }
+.header li.download>a:hover>* { display: block; }
+.header li.download div.download  {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index: 98;
+	transform: translateX(-32%);
+	width: 142px;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 20px 20px 0;
+	box-shadow: 0px 1px 5px rgb(170, 170, 170);
+}
+.header li.download img { width: 100%; }
+.header li.download>a>div.under {
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 99;
+	width: 20px;
+	height: 20px;
+	border: 10px solid transparent;
+	border-bottom-color: #fff;
+}
+.header li.download div.download>p {
+	font-size: 14px;
+	color: rgb(94,94,94);
+	margin-top: -20px;
+}
+.header li:nth-child(even) {
+	margin: 0 10px;
+	width: 1px;
+	height: 12px;
+	background-color: #424242;
+	cursor: text;
+}
+.header a {
+	display: block;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	color: #b0b0b0;
+}
+.header a.cart {
+	position: relative;
+	padding: 0 20px;
+	background-color: rgb(66,66,66);
+}
+.header a.cart>div.slide {
+	position: absolute;
+	right: 0;
+	top: 40px;
+	z-index: 99;
+	height: 0;
+	width: 320px;
+	transition: all 0.2s;
+	background-color: #fff;
+}
+.header a:hover { color: #fff; }
+.header a.cart:hover { color: #FF6700; background: #fff; transition: all 0.2s; }
+.header a.cart:hover>div.slide { height: 100px; }
+.header i { 
+	margin-right: 4px;
+	font-size: 20px;
+	vertical-align: -4px;
+}
+.content {
+	background-color: #fff;
+}
+.content div.content-top {
+	height: 60px;
+	background-color: rgb(250,250,250);
+	font-size: 16px;
+	color: #000;
+	line-height: 60px;
+}
+.content div.hours { 
+	height: 490px;
+}
+.content div.hours div.left {
+	transform: translateY(50%);
+	margin: 0 146px 0 220px;
+	float: left;
+	text-align: center;
+}
+.content div.hours div.left>h1 { 
+	margin-bottom: 20px;
+	font-size: 72px;
+	font-weight: 200;
+}
+.content div.hours div.left>h1>span {
+	color: #FF6700;
+}
+.content div.hours div.left>p {
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: 100;
+	color: #333;
+}
+.content div.hours div.left>a {
+	padding: 0 60px;
+	display: inline-block;
+	height: 55px;
+	line-height: 55px;
+	font-size: 16px;
+	color: #fff;
+	background-color: rgb(255,103,9);
+}
+.content div.hours div.right {
+	padding-top: 80px;
+	overflow: hidden;
+}
+div.steps {
+	box-sizing: border-box;
+	padding-top: 120px;
+	text-align: center;
+	height: 720px;
+	background-color: rgb(236,106,31);
+}
+div.steps>h2 { 
+	margin-bottom: 100px;
+	font-weight: 100;
+	font-size: 54px;
+	color: #fff;
+}
+div.steps>div { 
+	font-size: 0;
+	margin-top: 30px;
+}
+div.steps>div>span {
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+}
+div.steps>div>span:nth-child(1) {
+	padding-left: 20px;
+}
+div.steps>div>span:nth-child(2) {
+	margin: 0 200px;
+}
+div.privilege {
+	text-align: center;
+	padding-top: 110px;
+	background-color: #fff;
+	border: 1px solid red;
+}
+div.privilege>h2 {
+	margin-bottom: 70px;
+	font-size: 54px;
+	font-weight: 100;
+	color: #000;
+}
+div.privilege>ul { 
+	display: inline-block;
+	margin-bottom: 150px;
+}
+div.privilege>ul>li {
+	padding: 0 60px;
+	float: left;
+}
+div.privilege span.first {
+	box-sizing: border-box;	
+	display: inline-block;
+	padding: 20px;	
+	margin-bottom: 20px;	
+	height: 128px;
+	width: 128px;
+	font-size: 32px;
+	font-weight: 100;
+	color: #fff;
+	border-radius: 50%;
+}
+div.privilege span.one {
+	background-color: rgb(255,216,33);
+}
+div.privilege span.two {
+	background-color: rgb(248,164,37);
+}
+div.privilege span.three {
+	background-color: rgb(246,134,31);
+}
+div.privilege span.four {
+	background-color: rgb(235,102,26);
+}
+div.privilege span.five {
+	background-color: rgb(252,81,5);
+}
+div.privilege span.last {
+	font-size: 18px;
+}
+/* 常见问题 */
+div.question { 
+	padding-top: 130px;
+	background-color: rgb(236,106,31);
+}
+div.question h2 { 
+	text-align: center;
+	font-size: 54px;
+	font-weight: 100;
+	color: #fff;
+}
+div.question ul { 
+	padding: 30px 0 70px 180px;
+}
+div.question ul>li {
+	padding: 20px 10px;
+	border-bottom: 1px solid rgb(247,195,166);
+}
+div.question ul>li>p.question { 
+	margin-bottom: 20px;
+	font-size: 22px;
+	color: #fff;
+}
+div.question ul>li>p.answer { 
+	font-size: 18px;
+	color: #ffdbb7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer页脚 */
+.footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+}
+.footer div.top { }
+.footer ul {
+	padding: 30px 0;
+	border-bottom: 1px solid rgb(224,224,224);
+}
+.footer li {
+	box-sizing: border-box;
+	float: left;
+	width: 20%;
+	text-align: center;
+	border-left: 1px solid rgb(224,224,224);
+}
+.footer li:nth-child(1) { border-left: 0; }
+.footer li>a { color: rgb(97,97,97); }
+.footer li>a:hover { font-size: 16px; color: #FF6700; }
+.footer i { 
+	display: inline-block;
+	font-size: 24px;
+	margin-top: -4px;
+	vertical-align: middle;
+}
+.footer div.bottom {
+	padding: 40px 0;
+}
+.footer div.left {
+	float: left;
+	width: 80%;
+	font-size: 0;
+}
+.footer div.left dl {
+	display: inline-block;
+	width: 16.666666%;
+}
+.footer div.left dl:last-child {
+	box-sizing: border-box;
+	border-right: 1px solid rgb(224,224,224)
+}
+.footer div.left dt {
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: #424242;
+}
+.footer div.left dd { 
+	margin-top: 10px;
+}
+.footer div.left dd>a {
+	font-size: 12px;
+	color: #757575;
+}
+.footer div.left dd>a:hover { color: #FF6700; }
+.footer div.right {
+	overflow: hidden;
+	width: 20%;
+	text-align: center;
+}
+.footer div.right>p:nth-child(1) {
+	font-size: 22px;
+	color: #FF6700;
+}
+.footer div.right>p:nth-child(2) {
+	font-size: 12px;
+	color: rgb(97,97,97);
+}
+.footer div.right>a {
+	margin-top: 16px;
+	display: inline-block;
+	padding: 5px 30px;
+	font-size: 12px;
+	color: #FF6700;
+	border: 1px solid #FF6700;
+	transition: all 0.4s;
+}
+.footer div.right i {
+	font-size: 18px;
+	margin-right: 4px;
+}
+.footer div.right>a:hover {
+	border: 1px solid #f25807;
+	background-color: #FF6700;
+	color: #FFFFFF;
+}
+
+

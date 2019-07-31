@@ -1,0 +1,114 @@
+html { min-width: 1226px; }
+.w { width: 1130px; margin: 0 auto; }
+.header a {
+	display: block;
+	width: 200px;
+	height: 98px;
+}
+.header img{ width: 100%; }
+.banner { position: relative; }
+.banner>a { 
+	display: block;
+	background-image: url(../images/banner.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 558px;
+}
+.banner>div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.banner>div>a { display: block; height: 588px; }
+/* 选项卡 */
+.banner div.tab {
+	position: relative;
+	box-sizing: border-box;
+	padding: 30px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	height: 528px;
+	background-color: #fff;
+}
+.banner div.tab>span {
+	position: absolute;
+	top: 34px;
+	left: 50%;
+	width: 0.5px;
+	height: 24px;
+	border: 1px solid #e0e0e0;
+}
+.banner ul.tab-title { 
+	padding: 0 10px; 
+	margin-bottom: 30px; 
+	font-size: 0; 
+}
+.banner ul.tab-title>li { display: inline-block; margin: 0 35px; }
+.banner ul.tab-title>li>a { font-size: 24px; color: #666; }
+.banner ul.tab-title>li>a:hover { color: #FF6700; }
+.banner ul.tab-title>li>a.show {color: #FF6700 !important; }
+
+.banner ul.tab-content { font-size: 14px; }
+.banner ul.tab-content>li:last-child { padding: 100px 0 50px; }
+.banner ul.tab-content>li>ul>li { margin-bottom: 14px; color: #FF6700; }
+::-webkit-input-placeholder { color: rgb(155,155,155); }
+.banner ul.tab-content input {
+	padding: 0 10px;
+	box-sizing: border-box;
+	outline: none;
+	width: 100%;
+	height: 48px;
+	border: 1px solid rgb(224,224,224);
+}
+.banner ul.tab-content input.login {
+	margin-top: 10px;
+	color: #FFFFFF;
+	background-color: #FF6700;
+	border: none;
+}
+.banner ul.tab-content span { vertical-align: middle; }
+.banner ul.tab-content span.line {
+	display: inline-block;
+	width: 35.8%;
+	height: 1px;
+	background-color: rgb(224,224,224);
+}
+.banner ul.tab-content span.method { font-size: 14px; color: #b0b0b0; }
+.banner ul.tab-content>li { display: none; }
+.banner ul.tab-content>li.active { display: block; }
+.banner ul.tab-content li { text-align: center;	}
+.banner ul.tab-content li>a { margin: 14px; }
+.banner ul.tab-content li.alert { text-align: left; display: none; }
+.banner ul.tab-content li.method { margin-top: 146px; }
+.banner ul.tab-content li.way i{ font-size: 30px; }
+.banner ul.tab-content li.way i.qq { color: rgb(2,136,209); }
+.banner ul.tab-content li.way i.microblogging { color: rgb(211,47,47); }
+.banner ul.tab-content li.way i.alipay { color: rgb(0,170,238); }
+.banner ul.tab-content li.way i.we-chat { color: rgb(0,210,13); }
+.banner ul.tab-content li>img { margin-bottom: 20px; }
+.banner ul.tab-content li>p { color: rgb(117,117,117); text-align: center; }
+.banner ul.tab-content li>p>span { color: #FF6700; }
+/* 页脚 */
+.footer { margin: 100px 0 20px; }
+.footer ul { color: rgb(133,133,133); }
+.footer li {
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+.footer a { padding: 0 10px; color: rgb(133,133,133); }
+.footer a:hover { color: rgb(51,51,51); }
+.footer span { 
+	vertical-align: middle;
+	display: inline-block;
+	width: 1px;
+	height: 14px;
+	background-color: rgb(149,149,149);
+	cursor: text;
+}
+.footer .active { color: rgb(51,51,51); }
+.footer ul>li:nth-child(2)>a { padding: 0; }
+.footer ul>li:nth-child(2)>a:hover { color: rgb(133,133,133); }

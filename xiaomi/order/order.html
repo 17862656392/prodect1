@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../static/css/reset.css">
+		<link rel="stylesheet" href="../static/css/iconfont.css">
+		<link rel="stylesheet" href="css/order.css">
+		<title>我的订单</title>
+	</head>
+	<body>
+		<!-- aside侧边栏 -->
+		<div class="aside">
+			<ul>
+				<li>
+					<a href="#">
+						<i class="iconfont icon-phone"></i>
+						<p>手机APP</p>
+					</a>
+				</li>
+				<li>
+					<a href="../个人中心profile/个人中心profile.html">
+						<i class="iconfont icon-center"></i>
+						<p>个人中心</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="iconfont icon-after-sales"></i>
+						<p>售后服务</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="iconfont icon-service"></i>
+						<p>联系客服</p>
+					</a>
+				</li>
+				<li>
+					<a href="../cart/cart.html">
+						<i class="iconfont icon-cart"></i>
+						<p>购物车</p>
+					</a>
+				</li>
+				<li class="return">
+					<a href="#">
+						<i class="iconfont icon-return"></i>
+						<p>返回顶部</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- header页头 -->
+		<div class="header">
+			<div class="w clearfix">
+				<ul class="left">
+					<li><a href="#">小米商城</a></li>
+					<li></li>
+					<li><a href="#">MIUI</a></li>
+					<li></li>
+					<li><a href="#">loT</a></li>
+					<li></li>
+					<li><a href="#">云服务</a></li>
+					<li></li>
+					<li><a href="#">金融</a></li>
+					<li></li>
+					<li><a href="#">有品</a></li>
+					<li></li>
+					<li><a href="#">小爱开放平台</a></li>
+					<li></li>
+					<li><a href="#">政企服务</a></li>
+					<li></li>
+					<li><a href="#">资质证照</a></li>
+					<li></li>
+					<li><a href="#">协议规则</a></li>
+					<li></li>
+					<li class="download">
+						<a href="#">
+							下载app
+							<div class="under"></div>
+							<div class="download">
+								<img src="../static/images/download.png">
+								<p>小米商城APP</p>
+							</div>
+						</a>
+					</li>
+					<li></li>
+					<li><a href="#">Select Region</a></li>
+				</ul>
+				<ul class="right">
+					<li><a href="../登录login/登录login.html">登录</a></li>
+					<li></li>
+					<li><a href="#">注册</a></li>
+					<li></li>
+					<li><a href="#">消息通知</a></li>
+					<li class="hide"></li>
+					<li>
+						<a class="cart" href="../cart/cart.html">
+							<i class="iconfont icon-cart"></i>
+							购物车(<span class='num'></span>)
+							<div class="slide"></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+		<!-- 订单部分 -->
+		<div class='order'>
+			<div class='w wrapper clearfix'>
+				<div class='address'>
+					<a href="../个人中心profile/个人中心profile.html">首页</a>
+					<span>&gt;</span>
+					<span>交易订单</span>
+				</div>
+				<div class='left-aside'>
+					<div>
+						<h3>订单中心</h3>
+						<ul>
+							<li><a href="#" class='active'>我的订单</a></li>
+							<li><a href="#">团购订单</a></li>
+							<li><a href="#">评价晒单</a></li>
+							<li><a href="#">话费充值订单</a></li>
+							<li><a href="#">以旧换新订单</a></li>
+						</ul>
+					</div>
+					<div>
+						<h3>个人中心</h3>
+						<ul>
+							<li><a href="#">我的个人中心</a></li>
+							<li><a href="#">消息通知</a></li>
+							<li><a href="#">购买资格</a></li>
+							<li><a href="#">现金账户</a></li>
+							<li><a href="#">小米礼品卡</a></li>
+							<li><a href="#">现金券</a></li>
+							<li><a href="#">喜欢的商品</a></li>
+							<li><a href="#">优惠券</a></li>
+							<li><a href="#">收货地址</a></li>
+						</ul>
+					</div>
+					<div>
+						<h3>售后服务</h3>
+						<ul>
+							<li><a href="#">服务记录</a></li>
+							<li><a href="#">申请服务</a></li>
+							<li><a href="#">领取快递报销</a></li>
+						</ul>
+					</div>
+					<div>
+						<h3>账户管理</h3>
+						<ul>
+							<li><a href="#">个人信息</a></li>
+							<li><a href="#">修改密码</a></li>
+							<li><a href="#">社区VIP认证</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class='right-content'>
+					<div class='right-wrapper'>
+						<div class='right-top'>
+							<div class='title'>
+								<h1>我的订单</h1>
+								<p>请谨防钓鱼链接或诈骗电话，</p>
+								<a href="#">了解更多&gt;</a>
+							</div>
+							<ul class='clearfix'>
+								<!-- <li><a href="#"class='a1 active'>全部有效订单</a></li>
+								<li><a href="#">待支付</a></li>
+								<li><a href="#">待收货</a></li>
+								<li><a href="#"class='a2'>已关闭</a></li> -->
+							</ul>
+							<input type="" name="" id="" value="输入商品名称、商品编号、订单号" class='in1'/>
+							<input type="submit" name="" id="" value=" " class='in2 iconfont icon-search' />
+						</div>
+						<div class='right-bottom'>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer页脚 -->
+		<div class="footer">
+			<div class="w">
+				<div class="top">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<i class="iconfont icon-after-sales"></i>
+								<span>预约维修</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont icon-7"></i>
+								<span>7天无理由退货</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont icon-15"></i>
+								<span>15天免费换货</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont icon-gift"></i>
+								<span>满150元包邮</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont icon-address"></i>
+								<span>520余家售后网点</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="bottom">
+					<div class="left">
+						<dl>
+							<dt>帮助中心</dt>
+							<dd><a href="#">账户管理</a></dd>
+							<dd><a href="#">购物指南</a></dd>
+							<dd><a href="#">订单操作</a></dd>
+						</dl>
+						<dl>
+							<dt>服务支持</dt>
+							<dd><a href="#">售后政策</a></dd>
+							<dd><a href="#">自助下载</a></dd>
+							<dd><a href="#">相关下载</a></dd>
+						</dl>
+						<dl>
+							<dt>线下门店</dt>
+							<dd><a href="#">小米之家</a></dd>
+							<dd><a href="#">服务网点</a></dd>
+							<dd><a href="#">售后体验店</a></dd>
+						</dl>
+						<dl>
+							<dt>关于小米</dt>
+							<dd><a href="#">了解小米</a></dd>
+							<dd><a href="#">加入小米</a></dd>
+							<dd><a href="#">投资者关系</a></dd>
+						</dl>
+						<dl>
+							<dt>关注我们</dt>
+							<dd><a href="#">新浪微博</a></dd>
+							<dd><a href="#">官方微信</a></dd>
+							<dd><a href="#">联系我们</a></dd>
+						</dl>
+						<dl>
+							<dt>特色服务</dt>
+							<dd><a href="#">F码通道</a></dd>
+							<dd><a href="#">礼物码</a></dd>
+							<dd><a href="#">防伪查询</a></dd>
+						</dl>
+					</div>
+					<div class="right">
+						<p>400-100-5678</p>
+						<p>周一至周日 8:00-18:00 <br> (仅收市话费)</p>
+						<a href="#"><i class="iconfont icon-information"></i>联系客服</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	<script src='../static/js/jQuery-3.4.0.js'></script>
+	<script src='../static/js/js.cookie.min.js'></script>
+	<script src='../static/js/public.js'></script>
+	<script src='../static/js/data.js'></script>
+	<script src='js/order.js'></script>
+	</body>
+</html>
